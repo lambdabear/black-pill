@@ -21,7 +21,7 @@ defmt-rtt = "0.3.0"
 panic-probe = { version = "0.3.0", features = ["print-defmt"] }
 # TODO(4) enter your HAL here
 # some-hal = "1.2.3"
-stm32f4xx-hal = { version = "0.12.0", features = ["rt", "stm32f411"] }
+stm32f4xx-hal = { version = "0.13.1", features = ["rt", "stm32f411"] }
 smart-leds = "0.3.0"
 ws2812-spi = "0.4"
 panic-halt = "0.2.0"
