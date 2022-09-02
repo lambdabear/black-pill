@@ -13,7 +13,7 @@ use stm32f4xx_hal::pac::{CorePeripherals, Peripherals};
 use stm32f4xx_hal::prelude::*;
 use stm32f4xx_hal::timer::SysDelay;
 
-const ADDR: u8 = 0x38 << 1;
+const ADDR: u8 = 0x38;
 const CMD_INIT: u8 = 0xE1;
 const INIT_ARG1: u8 = 0x08;
 const INIT_ARG2: u8 = 0x00;
